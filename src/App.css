@@ -26,3 +26,17 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.Age-label {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+button {
+  margin-left: 10px;
+  
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
