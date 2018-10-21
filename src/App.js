@@ -22,7 +22,7 @@ const mapStateToProps = state => {
   };
 };
 
-const mapDispachToProps = dispatch => {
+const mapDispatchToProps = dispatch => {
   return {
     onAgeUp: () => dispatch({ type: "AGE_UP", value: 1 }),
     onAgeDown: () => dispatch({ type: "AGE_DOWN", value: 1 })
@@ -30,5 +30,5 @@ const mapDispachToProps = dispatch => {
 };
 export default connect(
   mapStateToProps,
-  mapDispachToProps
+  mapDispatchToProps
 )(App);
